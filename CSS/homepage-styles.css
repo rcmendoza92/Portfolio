@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Larisch';
+  src: url(Fonts/Larisch.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Kosugi Maru';
+  src: url(Fonts/KosugiMaru.ttf) format("truetype");
+}
+
+#name{
+  font-size: 9.5vh; /*72px*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4.775vh; /*36px*/
+  margin-bottom: 1.6vh; /*12px*/
+  line-height: 0.7;
+}
+
+#bg{
+  margin: 0;
+  background-image: url("banner 1920x940.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto 100vh;
+  /* max-width: 100%; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#about-trigger{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 59vh;
+  width: 19vh;
+  height: 9vh;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.35);
+}
+
+.modal-content{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  margin-top: 5vh;
+  width: 60vh;
+  height: 90%;
+}
+
+.close {
+  font-family: sans-serif;
+  position: absolute;
+  font-size: 5vh;
+  top: 2%;
+  left: 97%;
+  cursor: pointer;
+}
+
+/* .spotlight {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5));
+  background-attachment: fixed;
+  margin: 0;
+  padding: 10px;
+} */
+
+button{
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+nav{
+  font-size: 2.4vh; /*18px*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.6vh; /*12px*/
+  padding-right: 1.6vh; /*12px*/
+}
+
+small.flank{
+  font-size: 7.4vh; /*56px*/
+  letter-spacing: 3px;
+}
+
+body{
+  font-family: 'Larisch';
+  background-color: #51493e;
+  color: #fff1a4;
+  text-shadow: 0vw 0vw 1.56vw #fff1a4;
+  margin: 0;
+  background-image: url("colored-fog-1920.png");
+  background-attachment: fixed;
+  background-size: cover;
+  /* max-width: 100%; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a:link {
+  text-decoration: none;
+  color: #fff1a4;
+  /* -webkit-transition: font-size 0.4s;
+  transition: font-size 0.4s; */
+}
+
+a:visited {
+  text-decoration: none;
+  color: #fff1a4;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffe080;
+  /* font-size: 28px; */
+}
+
+::selection {
+  background: #fff7cc;
+}

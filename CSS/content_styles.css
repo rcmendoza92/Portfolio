@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'Larisch';
+  src: url(Fonts/Larisch.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Imagica';
+  src: url(Fonts/Imagica.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Gothic Bozo';
+  src: url(Fonts/Gothic_Bozo.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Hoffmann';
+  src: url(Fonts/Hoffmann.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'MagicMedieval';
+  src: url(Fonts/MagicMedieval.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'PackardAntique';
+  src: url(Fonts/PackardAntique.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Atlas of the Magi';
+  src: url(Fonts/Atlas_of_the_Magi.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Stylish';
+  src: url(Fonts/Stylish.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'IM Fell DW Italic';
+  src: url(Fonts/IMFellDW-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'IM Fell DP';
+  src: url(Fonts/IMFellDP.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'IM Fell DP Italic';
+  src: url(Fonts/IMFellDP-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Kosugi Maru';
+  src: url(Fonts/KosugiMaru.ttf) format("truetype");
+}
+
+.name {
+    background-color: #362a19;
+    font-family: 'Larisch';
+    color: #362a19;
+    width: 40%;
+    font-size: 80px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+.left {
+  text-align: left;
+  text-align: justify;
+  width: 40%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.right {
+  text-align: right;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.year {
+  text-align: center;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container {
+  float: right;
+  margin-left: 5%;
+}
+
+body{
+  background-color: #362a19;
+  font-family: 'Kosugi Maru';
+  color: #fff1a4;
+  text-shadow: 0px 0px 28px #ffeb79;
+}
+
+h1 {
+  /* text-align: center; */
+}
+
+h2{
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+footer {
+  font-family: 'Kosugi Maru';
+  font-size: 16px;
+  color: #fff1a4;
+  text-shadow: 0px 0px 28px #ffeb79;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffe080;
+  text-shadow: 0px 0px 28px #ffe080;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffe080;
+  text-shadow: 0px 0px 28px #ffe080;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff1a4;
+  text-shadow: 0px 0px 12px #fff1a4;
+}
+
+a:active {
+  text-decoration: none;
+  color: #ffe080;
+  text-shadow: 0px 0px 28px #ffe080;
+}
