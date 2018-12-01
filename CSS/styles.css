@@ -55,16 +55,6 @@ nav::-webkit-scrollbar-thumb{
   background-color: #fff1a4;
 }
 
-.name-vector {
-  width: 140px;
-  position: fixed;
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
-}
-.name-vector:hover{
-  width: 148px;
-}
-
 .name-text{
   font-family: 'Larisch';
   color: #fff1a4;
@@ -152,43 +142,6 @@ nav::-webkit-scrollbar-thumb{
   margin-right: auto;
   text-align: center;
   width: 100%;
-}
-
-.overlay {
-  margin-left: 100%;
-  height: 100%;
-  opacity: 0;
-  /* transition: 0.5s ease;
-  /* background-color: rgba(22,18,12,0.67); */
-}
-
-.vertical-image-container:hover .overlay {
-  opacity: 1;
-}
-
-.square-image-container:hover .overlay {
-  opacity: 1;
-}
-
-.horizontal-image-container:hover .overlay {
-  opacity: 1;
-}
-
-.overlay-text {
-  position: absolute;
-  top: 0;
-  margin-left: 20px;
-  width: 200px;
-  text-align: left;
-}
-
-.line{
-  width: 96%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  border: 0.5px solid #fff1a4;
-  box-shadow: 0vw 0vw 0.21vw #fff1a4;
 }
 
 body{
