@@ -100,11 +100,11 @@ small.flank{
 
 body{
   font-family: 'Larisch';
-  background-color: #51493e;
+  background-color: black;
   color: #fff1a4;
   text-shadow: 0vw 0vw 1.56vw #fff1a4;
   margin: 0;
-  background-image: url("colored-fog-1920.png");
+  /* background-image: url("colored-fog-1920.png"); */
   background-attachment: fixed;
   background-size: cover;
   /* max-width: 100%; */
